@@ -8,7 +8,7 @@ See the file 'LICENCE' for copying permission
 
 import sys
 import os
-import urlparse
+import urllib.parse as urlparse
 from lib.data import logger
 from lib.data import paths
 from lib.data import target
